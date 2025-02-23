@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 .logo-img {
-    height: 50px; /* Adjust based on your logo size */
+    height: 200px; /* Adjust based on your logo size */
     width: auto;
     margin-right: 10px; /* Space between logo and text (if adding text later) */
 }
