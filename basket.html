@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View your Leef UK basket and proceed to purchase health and wellbeing products.">
+    <title>Leef UK | Basket</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="leef-logo.png" alt="Leef UK Logo" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product-leef-balm.html">Leef Balm</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="#basket">Basket</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="basket" class="basket-detail">
+        <h2>Your Basket</h2>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically added here via JavaScript -->
+        </div>
+        <div id="cart-total">
+            <p>Total: £<span id="total-amount">0.00</span></p>
+        </div>
+        <button class="cta" onclick="clearBasket()">Clear Basket</button>
+        <a href="mailto:info@leefuk.com?subject=Checkout%20Basket" class="cta">Proceed to Checkout</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Leef UK. All rights reserved.</p>
+        <div class="socials">
+            <a href="#">Twitter</a> | <a href="#">Instagram</a> | <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
