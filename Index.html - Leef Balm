@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leef UK | Leef Balm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="leef-logo.png" alt="Leef UK Logo" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#product">Leef Balm</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="product" class="product-detail">
+        <h2>Leef Balm</h2>
+        <div class="product-content">
+            <img src="https://via.placeholder.com/400x300?text=Leef+Balm" alt="Leef Balm">
+            <div class="product-description">
+                <p>Leef Balm is our flagship health and wellbeing product, crafted with 100% organic ingredients, including soothing lavender, tea tree, and coconut oil. Perfect for muscle relief, skin hydration, and daily wellness, this balm supports your journey to a balanced, natural lifestyle. Available in a 50ml eco-friendly tin, it’s ideal for home or on the go.</p>
+                <p><strong>Key Benefits:</strong></p>
+                <ul>
+                    <li>Natural pain relief for muscles and joints</li>
+                    <li>Deeply moisturizes dry skin</li>
+                    <li>Promotes relaxation with calming essential oils</li>
+                </ul>
+                <p><strong>Price:</strong> £19.99</p>
+                <a href="mailto:info@leefuk.com?subject=Purchase%20Leef%20Balm" class="cta">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Leef UK. All rights reserved.</p>
+        <div class="socials">
+            <a href="#">Twitter</a> | <a href="#">Instagram</a> | <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
