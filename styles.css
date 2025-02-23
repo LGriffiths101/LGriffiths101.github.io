@@ -188,7 +188,7 @@ footer {
     list-style: disc;
     margin-left: 1.5rem;
     margin-top: 0.5rem;
-    color: #FFFFFF; /* White list items for contrast against black body */
+    color: #000000; /* Black text for contrast on white */
 }
 
 .basket-detail {
