@@ -97,6 +97,7 @@ nav h1 {
     padding: 2rem;
     background: #FFFFFF; /* White sections for contrast against black */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+    color: #000000; /* Black text for contrast on white background */
 }
 
 .product {
