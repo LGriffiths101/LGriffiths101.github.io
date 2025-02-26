@@ -183,6 +183,7 @@ footer {
 
 .product-description p {
     margin-bottom: 1rem;
+    color: #000000; /* Explicitly set paragraphs to black */
 }
 
 .product-description ul {
